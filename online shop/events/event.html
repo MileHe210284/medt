@@ -11,25 +11,56 @@
 <html>
 <body>
 	<style>
+    body{
+        background-color: rgb(253, 235, 255);
+    }
+.event-text {
+text-align: center;
+font-family: 'Calibri Light', Calibri, 'Gill Sans';
+}
 .grid-container {
 display: grid;
 grid-template-columns: 90px 300px 10px 300px 10px 300px 30px;
 grid-template-rows: 50px 150px 30px 150px 150px;
 grid-column-gap: 30px;
-grid-row-gap: 100px;
+grid-row-gap: 50px;
 }
 
 .div1 { grid-area: 2 / 2 / 5 / 3;
-        border: 2px solid rgba(0, 0, 0, 0.421); }
+        border: 3px solid rgb(0, 0, 0);
+        background-color: whitesmoke;
+     }
 .div2 { grid-area: 2 / 4 / 5 / 5; 
-    border: 2px solid rgba(0, 0, 0, 0.421);}
+    border: 3px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
 .div3 { grid-area: 2 / 6 / 5 / 7; 
-    border: 2px solid rgba(0, 0, 0, 0.421);}
+    border: 3px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
     </style>
+
   <div class="grid-container">
-    <div class="div1"> <img src="../bilder/sale.jpg" width="296px" height="300px"> </div>  
-    <div class="div2"> <img src="../bilder/kilosale.jpg" width="296px" height="300px"> </div>
-    <div class="div3"> <img src="../bilder/blackFriday.jpg" width="296px" height="300px"> </div>
+    <div class="div1"> 
+        <img src="../bilder/sale.jpg" width="296px" height="200px">  
+        <h2 class="event-text">General Sale</h2>
+        <p class="event-text"> 20.10.2023</p>
+        <p class="event-text">Location: just our online shop</p>
+    </div>  
+
+    <div class="div2">
+         <img src="../bilder/kilosale.jpg" width="296px" height="200px"> 
+         <h2 class="event-text">Kilo Sale</h2>
+         <p class="event-text"> 20.10.2023</p>
+         <p class="event-text">Location: just our online shop</p>
+    </div>
+
+    <div class="div3">
+         <img src="../bilder/blackFriday.jpg" width="296px" height="200px"> 
+         <h2 class="event-text">Black Friday</h2>
+         <p class="event-text"> 20.10.2023</p>
+         <p class="event-text">Location: just our online shop</p>
+        </div>
     </div>
 </body>
 </html>

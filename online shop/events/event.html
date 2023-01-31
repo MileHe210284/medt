@@ -13,20 +13,22 @@
 	<style>
 .grid-container {
 display: grid;
-grid-template-columns: 100px 150px 100px 150px 100px 150px 100px;
-grid-template-rows: 50px 150px 30px 150px 50px;
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+grid-template-columns: 45px 150px 50px 150px 50px 150px 45px;
+grid-template-rows: 50px 150px 30px 150px 150px;
+grid-column-gap: 85px;
+grid-row-gap: 100px;
 }
 
-.div1 { grid-area: 2 / 2 / 5 / 3; }
+.div1 { grid-area: 2 / 2 / 5 / 3;
+        border-width: 50px;
+        border-color:black; }
 .div2 { grid-area: 2 / 4 / 5 / 5; }
 .div3 { grid-area: 2 / 6 / 5 / 7; }
     </style>
   <div class="grid-container">
-    <div class="div1"> <img src="../bilder/sale.jpg"> </div>  
-    <div class="div2"> <img src="../bilder/kilosale.jpg"> </div>
-    <div class="div3"> <img src="../bilder/blackFriday.jpg"> </div>
+    <div class="div1"> <img src="../bilder/sale.jpg" width="300px" height="300px"> </div>  
+    <div class="div2"> <img src="../bilder/kilosale.jpg" width="300px" height="300px"> </div>
+    <div class="div3"> <img src="../bilder/blackFriday.jpg" width="300px" height="300px"> </div>
     </div>
 
 

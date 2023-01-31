@@ -11,30 +11,24 @@
 <html>
 <body>
     <style>
+        .event-text {
+        text-align: center;
+        font-family: 'Calibri Light', Calibri, 'Gill Sans';
+        }
         .grid-container {
-            
-            display: grid;
-            grid-template-columns: 100px 150px 100px 150px 100px 150px 100px;
-            grid-template-rows: 50px 150px 30px 150px 50px;
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-            background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: 90px 300px 10px 300px 10px 300px 30px;
+        grid-template-rows: 50px 150px 30px 150px 150px;
+        grid-column-gap: 30px;
+        grid-row-gap: 50px;
         }
         
-        .div1 { grid-area: 2 / 2 / 3 / 3; }
-            .div2 { grid-area: 2 / 4 / 3 / 5; }
-            .div3 { grid-area: 2 / 6 / 3 / 7; }
-            .div4 { grid-area: 4 / 2 / 5 / 3; }
-            .div5 { grid-area: 4 / 4 / 5 / 5; }
-            .div6 { grid-area: 4 / 6 / 5 / 7; }
-        
-        .grid-item {
-          background-color: rgba(244, 147, 255, 0.8);
-          border: 1px solid rgba(0, 0, 0, 0.8);
-          padding: 20px;
-          font-size: 30px;
-          text-align: center;
-        }
+        .div1 { grid-area: 2 / 2 / 5 / 3;
+                border: 3px solid rgb(0, 0, 0); }
+        .div2 { grid-area: 2 / 4 / 5 / 5; 
+            border: 3px solid rgb(0, 0, 0);}
+        .div3 { grid-area: 2 / 6 / 5 / 7; 
+            border: 3px solid rgb(0, 0, 0);}
             </style>
 	
 

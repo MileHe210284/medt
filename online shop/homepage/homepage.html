@@ -80,8 +80,7 @@
 
 #slides {
 	padding: 10px;
-	border: 5px solid #0F0;
-	background: #00F;
+	background: white;
 	position: relative;
 	z-index: 1;
 }
@@ -158,9 +157,9 @@
 	opacity: 1;
 }
 
-#frame1:checked~#controls label:nth-child(2),
+#frame1:checked~#controls label:nth-child(1),
 #frame2:checked~#controls label:nth-child(3),
-#frame4:checked~#controls label:nth-child(1) {
+#frame4:checked~#controls label:nth-child(3) {
 	background:
     url(../bilder/CatHat.JPG) no-repeat;
 	float: right;
@@ -169,8 +168,8 @@
 }
 
 #frame1:checked~#controls label:nth-last-child(2),
-#frame2:checked~#controls label:nth-last-child(3),
-#frame4:checked~#controls label:nth-last-child(1) {
+#frame2:checked~#controls label:nth-last-child(1),
+#frame4:checked~#controls label:nth-last-child(2) {
 	background: url(../bilder/CatHat.JPG) no-repeat;
 	float: left;
 	margin: 0 0 0 -50px;
@@ -191,9 +190,9 @@
 	margin: 0 10px;
 }
 
-#frame1:checked~#bullets label:nth-child(1),
+#frame1:checked~#bullets label:nth-child(3),
 #frame2:checked~#bullets label:nth-child(2),
-#frame3:checked~#bullets label:nth-child(3){
+#frame3:checked~#bullets label:nth-child(1){
 	background: #444;
 }
 

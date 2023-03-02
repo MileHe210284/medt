@@ -13,7 +13,7 @@
 <script>
     function shop()
     { 
-
+        open(url="../products/product.html", "_blank");
      };
 </script>
 
@@ -90,7 +90,6 @@ grid-row-gap: 0px;
 .div10 { grid-area: 12 / 3 / 13 / 5; }
 
 .eventGrid{
-
 border: black;
 border-width: 10px;
 }
@@ -128,21 +127,21 @@ border-width: 10px;
            <button class="button" onclick="shop()">Shop Now</button>
         </div>
 
-        <div class="div4"> 
+        <div class="div4" class="eventGrid"> 
             <img src="../bilder/sale.jpg" width="296px" height="200px">  
             <h2 class="event-text">General Sale</h2>
             <p class="event-text"> 29.05.2023</p>
             <p class="event-text">Location: just our online shop</p>
         </div>
 
-        <div class="div5"> 
+        <div class="div5" class="eventGrid"> 
             <img src="../bilder/kilosale.jpg" width="296px" height="200px"> 
             <h2 class="event-text">Kilo Sale</h2>
             <p class="event-text"> 16.07.2023</p>
             <p class="event-text">Location: just our online shop</p>
         </div>
 
-        <div class="div6"> 
+        <div class="div6" class="eventGrid"> 
             <img src="../bilder/blackFriday.jpg" width="296px" height="200px"> 
             <h2 class="event-text">Black Friday</h2>
             <p class="event-text"> 18.08.2023</p>
@@ -158,7 +157,7 @@ border-width: 10px;
         </div>
 
         <div class="div9"> 
-            <button class="button" onclick="shop">Shop Now</button>
+            <button class="button" onclick="shop()">Shop Now</button>
         </div>
 
         <div class="div10"> 

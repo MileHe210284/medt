@@ -1,0 +1,45 @@
+.button 
+{
+    background-color: #e651c6; 
+    border: black;
+    border-width: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button:hover {
+    background-color: #954caf; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+  }
+.genderText
+{
+font-weight:bold;
+}
+body
+{
+  background-image: url(../bilder/loginBack.png);
+  background-position: middle;
+  background-repeat: no-repeat;
+  font-family: 'Calibri Light', Calibri, 'Gill Sans';
+}
+
+input, label
+{
+margin-left:2%;
+}
+form{
+  background-color:white;
+  margin-right:83%;
+  padding:10px;
+  padding-top:0px;
+  border-radius: 10px;
+}

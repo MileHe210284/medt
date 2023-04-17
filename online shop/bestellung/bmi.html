@@ -14,30 +14,10 @@
 <body>
 
     <form>
-        <h1>BMI Calculator</h1>
-      
-        <label class="genderText">Gender</label> 
-        <br>
-        <label>Female:</label><input type="radio" name="gender">
-        <br>
-        <label>Male:     </label><input type="radio" name="gender">
-        <br>
-        <label>Diverse:</label><input type="radio" name="gender">
-        <br><br>
-
-          <label>Nachname *</label> <br> <input type="text" class="form-control" name="txtNachname" placeholder="bitte Nachnamen eingeben" required="required">
+    
+          <label>Vorname*</label> <br> <input type="text" pattern="/[A-Z][a-z]{3,}/" class="form-control" name="txtNachname" placeholder="bitte Nachnamen eingeben" required="required">
             <br> <br>
-          <label >Vorname *</label> <br> <input type="text" class="form-control" name="txtVorname" placeholder="bitte Vorname eingeben" required="required">
-          <br><br>
-          <label>PLZ</label> <br> <input type="text" class="form-control" name="txtPlz" placeholder="bitte PLZ eingeben">
-          <br><br>
-          <label>Ort</label> <br> <input type="text" class="form-control" name="txtOrt" placeholder="bitte Ort eingeben">
-          <br><br>
-          <label>Größe *</label> <br> <input type="text" class="form-control" name="txtGröße" placeholder="bitte Größe eingeben" required="required">
-          <br><br>
-          <label>Gewicht *</label> <br> <input type="text" class="form-control" name="txtGewicht" placeholder="bitte Gewicht eingeben" required="required">
-          <br><br>
-          <label>Alter *</label> <br> <input type="text" class="form-control" name="txtAlter" placeholder="bitte Alter eingeben" required="required">
+          <label>Telefon nummer *</label> <br> <input type="text" pattern="/0732\d{6}-\d{2,4}/" class="form-control" name="txtAlter" placeholder="bitte Alter eingeben" required="required">
           <br><br>
           <input type="submit" class="button" name="button_name" value="Senden">
           <br><br>

@@ -20,6 +20,7 @@
             
 body {               
     font-family: 'Calibri Light', Calibri, 'Gill Sans';
+    margin: 0px;
 }
 .topnav {
     position:fixed;
@@ -79,13 +80,15 @@ grid-row-gap: 0px;
 .div2 { grid-area: 3 / 1 / 6 / 8; 
 margin-top: 400px;}
 .div3 { grid-area: 5 / 4 / 6 / 5;
-margin-top:250px; }
+margin-top:250px;
+ }
 .div4 { grid-area: 7 / 2 / 9 / 3; }
 .div5 { grid-area: 7 / 4 / 9 / 5; }
 .div6 { grid-area: 7 / 6 / 9 / 7; }
 .div7 { grid-area: 6 / 1 / 10 / 8; }
 .div8 { grid-area: 10 / 1 / 13 / 8; }
-.div9 { grid-area: 12 / 7 / 13 / 8; }
+.div9 { grid-area: 12 / 7 / 13 / 8; 
+    margin-left: -15px;}
 .div10 { grid-area: 12 / 3 / 13 / 5; }
 
 .eventGrid{
@@ -116,7 +119,11 @@ font-family: 'Calibri Light', Calibri, 'Gill Sans';
         
 
         <div class="div1">
-
+            <video width=100% height="auto" autoplay muted loop id="myVideo">
+                <source src="../bilder/fish.mp4" type="video/mp4">
+              </video>
+    <p style="">with every purchase we donate 10% to theoceancleanup.com.</p>
+            
         </div>
         
          
